@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 원자료(용량·재배포 고려, data/README.md 안내에 따라 직접 내려받기)
+data/CARD_SUBWAY_MONTH_*.csv
+data/seoulmetro_elderly_hourly_2024.csv
+data/subway_timetable_20260914.csv
+data/seoul_kyungrodang_202506.xlsx
+
+# OSMnx 캐시
+data/osm_cache/
+cache/

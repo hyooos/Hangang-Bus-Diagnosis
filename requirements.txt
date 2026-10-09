@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+networkx>=3.2
+osmnx>=2.0
+requests>=2.31
+openpyxl>=3.1
