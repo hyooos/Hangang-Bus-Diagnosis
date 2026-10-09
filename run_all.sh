@@ -6,8 +6,10 @@ cd "$(dirname "$0")"
 
 python3 analysis/build_timetable.py            # 한강버스 시간표 정형화
 python3 analysis/timetable_metrics.py          # 기대대기·여의도 환승대기
+python3 analysis/diagnosis.py                  # 원인 분해(배차 몫·불규칙 몫·교차 정차)
 python3 analysis/scenarios.py                  # 통근 시나리오 + 가중치 민감도
 python3 analysis/demand_signals.py             # 휴일 쏠림 지수(2026·2025)
+python3 analysis/optimize_timetable.py         # 12척 제약 격자 전수탐색(약 1분)
 python3 analysis/elderly.py                    # 평일 낮 고령층 집중도
 python3 analysis/access_osm.py                 # 계단 없는 보행 경로 (인터넷 필요)
 python3 analysis/final_tables.py               # 선착장 진단표·요금 시나리오·건강 코스(역 기준)
