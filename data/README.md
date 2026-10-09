@@ -10,7 +10,7 @@
 | `pet_registration_2022.csv` | 행정구역별 반려동물등록 개체 수(2022) | [data.go.kr 15125454](https://www.data.go.kr/data/15125454/fileData.do) |
 | `seoulmetro_elevator_20260901.csv` | 서울교통공사 엘리베이터 설치현황 | [data.go.kr 15044261](https://www.data.go.kr/data/15044261/fileData.do) |
 | `seoulmetro_transfer_20250317.csv` | 서울교통공사 환승 소요시간 | [열린데이터광장 OA-22521](https://data.seoul.go.kr/dataList/OA-22521/F/1/datasetView.do) |
-| `seoulmetro_station_runtime_240810.csv` | 서울교통공사 역간 소요시간(1~8호선, 참고용) | [열린데이터광장 OA-12034](https://data.seoul.go.kr/dataList/OA-12034/S/1/datasetView.do) |
+| `seoulmetro_station_runtime_240810.csv` | 서울교통공사 역간 소요시간(1\~8호선, 참고용) | [열린데이터광장 OA-12034](https://data.seoul.go.kr/dataList/OA-12034/S/1/datasetView.do) |
 
 ## 직접 내려받아야 하는 파일 (용량 문제로 제외)
 
@@ -18,9 +18,9 @@
 
 | 저장할 파일명 | 데이터 | 출처 |
 | --- | --- | --- |
-| `CARD_SUBWAY_MONTH_202501.csv` ~ `202508.csv`, `CARD_SUBWAY_MONTH_202601.csv` ~ `202608.csv` (16개) | 서울시 지하철호선별 역별 승하차 인원(일 단위) | [열린데이터광장 OA-12914](https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do) |
+| `CARD_SUBWAY_MONTH_202501.csv` \~ `202508.csv`, `CARD_SUBWAY_MONTH_202601.csv` \~ `202608.csv` (16개) | 서울시 지하철호선별 역별 승하차 인원(일 단위) | [열린데이터광장 OA-12914](https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do) |
 | `seoulmetro_elderly_hourly_2024.csv` | 서울교통공사 역별 일별 시간대별 노인 승하차인원(2024) | [data.go.kr 15101985](https://www.data.go.kr/data/15101985/fileData.do) |
-| `subway_timetable_20260914.csv` | 서울교통공사 도시철도 열차운행시각표(1~9호선) | [data.go.kr 15098251](https://www.data.go.kr/data/15098251/fileData.do) |
+| `subway_timetable_20260914.csv` | 서울교통공사 도시철도 열차운행시각표(1\~9호선) | [data.go.kr 15098251](https://www.data.go.kr/data/15098251/fileData.do) |
 | `seoul_kyungrodang_202506.xlsx` | 서울시 경로당 정보(2025.6, 3,644곳, 주소) — 참고용 | [열린데이터광장 OA-15052](https://data.seoul.go.kr/dataList/OA-15052/S/1/datasetView.do) |
 
 - 2026년 교통카드 파일은 UTF-8, 2025년 파일과 서울교통공사 파일은 CP949 인코딩입니다(스크립트가 자동 처리).
