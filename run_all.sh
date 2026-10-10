@@ -18,4 +18,9 @@ python3 analysis/compare_subway.py             # 한강버스 vs 지하철
 python3 analysis/kyungrodang_courses.py        # 경로당 출발 건강 코스 (인터넷 필요)
 python3 analysis/min_transfer_sensitivity.py   # 최소 환승시간 2/3/5분 민감도
 python3 analysis/elderly_speed_sensitivity.py  # 고령층 보행속도 민감도
+python3 analysis/timeslot_shares_daily.py      # 요일유형별 시간대 수요 비율(인접역 전체)
+python3 analysis/timeslot_shares_daily.py river   # 같은 계산, 한강 지향역(여의나루·자양)만
+python3 analysis/timeslot_allocation.py results/timeslot_shares.csv 11   # 시간대 배분(예비선 1척)
+python3 analysis/timeslot_allocation.py results/timeslot_shares.csv 10   # 시간대 배분(예비선 2척)
+python3 analysis/timeslot_daytype_effect.py    # 평일·주말 구분 효과(주간 선박·일)
 python3 analysis/figures.py                    # 그래프

@@ -15,6 +15,7 @@ data/CARD_SUBWAY_MONTH_*.csv
 data/seoulmetro_elderly_hourly_2024.csv
 data/subway_timetable_20260914.csv
 data/seoul_kyungrodang_202506.xlsx
+data/seoulmetro_hourly_2024.csv
 
 # OSMnx 캐시
 data/osm_cache/
